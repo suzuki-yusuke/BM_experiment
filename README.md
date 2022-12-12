@@ -2,7 +2,7 @@
 
 ## Requirement
 * The codes were developed and tested on LabVIEW 2013 for BM1 and LabVIEW 2017 for BM3 on Windows 7.
-* Because the codes contain plugins of [IDS SOFTWARE SUITE](https://jp.ids-imaging.com/ids-software-suite.html), [download](https://en.ids-imaging.com/download-details/AB00430.html)/install it. we confirmed uEye-Full-4401-64-WHQL was compatible.
+* Because the codes contain plugins of [IDS SOFTWARE SUITE](https://jp.ids-imaging.com/ids-software-suite.html), [download](https://en.ids-imaging.com/download-details/AB00430.html), install and integrate the olugins into your LabVIEW environment. we confirmed uEye-Full-4401-64-WHQL was compatible.
 
 
 ## Usage
