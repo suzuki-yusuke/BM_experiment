@@ -1,0 +1,5 @@
+40 Hz: 20 fps: 60s:
+60 Hz: 15 fps: 60 s: 
+60 Hz: 30 fps: 30 s:
+120 Hz: 30 fps: 30 s:
+120 Hz: 15 fps: 60 s:
