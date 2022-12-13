@@ -6,7 +6,108 @@
 
 
 ## Usage
-0. Create a project folder with the structure of the ***demo*** folder.
+(setup) Create a data folder with the following structure. "*" should be changed depending on your experimental design.
+
+```
+parent
+├─habituation
+│  └─d0
+│      └─t1
+│          ├─#1
+│          │      xy.txt
+│          │
+│          ├─#2
+│          │      xy.txt
+│          │
+│          ...
+│          │
+│          └─#*
+│                 xy.txt
+│
+├─probe_test
+│  └─d*
+│      └─t1
+│          ├─#1
+│          │      mv.avi
+│          │      xy.txt
+│          ...
+│          │
+│          └─#*
+│                 mv.avi
+│                 xy.txt
+│
+├─SaveDir
+│      probetest.csv
+│      training.csv
+│
+└─training
+   ├─d1
+   │  ├─t1
+   │  │  ├─#1
+   │  │  │       mv.avi
+   │  │  │       xy.txt
+   │  │  ...
+   │  │  │
+   │  │  └─#*
+   │  │          mv.avi
+   │  │          xy.txt
+   │  │
+   │  ├─t2
+   │  │  ├─#1
+   │  │  │       mv.avi
+   │  │  │       xy.txt
+   │  │  ...
+   │  │  │
+   │  │  └─#*
+   │  │          mv.avi
+   │  │          xy.txt
+   │  ...
+   │  │
+   │  └─t*
+   │      ├─#1
+   │      │      mv.avi
+   │      │      xy.txt
+   │      ...
+   │      │
+   │      └─#*
+   │             mv.avi
+   │             xy.txt
+   │
+   ...
+   │
+   └─d*
+      ├─t1
+      │  ├─#1
+      │  │       mv.avi
+      │  │       xy.txt
+         ...
+      │  │
+      │  └─#*
+      │          mv.avi
+      │          xy.txt
+      │
+      ├─t2
+      │  ├─#1
+      │  │       mv.avi
+      │  │       xy.txt
+      │  ...
+      │  │
+      │  └─#*
+      │          mv.avi
+      │          xy.txt
+      ...
+      │
+      └─t*
+          ├─#1
+          │      mv.avi
+          │      xy.txt
+          ...
+          │
+          └─#*
+                 mv.avi
+                 xy.txt
+```
+
 1. Open main function, ***160505-BM.vi*** for BM1, ***170731-BM.vi*** for BM3.
 2. Input ***Project Path*** in main function, as ```<<path to the project folder>>\habituation``` or ```<<path to the project folder>>\training``` or ```<<path to the project folder>>\probe_test```
 3. Set ***Day***, ***Trial***, ***ID***. if Day 1, Trial 2, animal ID 3, set 1, 2, 3, respectively.
